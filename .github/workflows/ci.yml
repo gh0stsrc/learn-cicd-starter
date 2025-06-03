@@ -20,4 +20,4 @@ jobs:
 
       - name: check Go version
         run: |
-          go version
+          go test -v ./...

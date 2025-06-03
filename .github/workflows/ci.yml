@@ -58,5 +58,5 @@ jobs:
       
       - name: Do Lint
         run: |
-          staticcheck ./..
+          staticcheck ./...
       

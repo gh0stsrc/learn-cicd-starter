@@ -18,6 +18,6 @@ jobs:
         with:
           go-version: "1.23.0"
 
-      - name: check Go version
+      - name: Run Go Test Suite
         run: |
           go test -v ./...

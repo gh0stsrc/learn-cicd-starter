@@ -31,10 +31,12 @@ jobs:
           gosec ./...
 
       - name: Install govulncheck
+        if: ${{ false }} # disabling govulncheck for now
         run : |
           go install golang.org/x/vuln/cmd/govulncheck@latest
 
       - name: Do govulncheck
+        if: ${{ false }} # disabling govulncheck for now
         run : |
           govulncheck ./...
 

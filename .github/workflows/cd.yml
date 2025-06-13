@@ -33,7 +33,7 @@ jobs:
 
       - name: migrateup.sh
         run: |
-          ./scripts/migration.sh
+          ./scripts/migrateup.sh
 
       - name: auth
         uses: google-github-actions/auth@v2
